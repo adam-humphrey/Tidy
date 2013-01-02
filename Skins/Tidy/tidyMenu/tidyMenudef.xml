@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+	<template>ULTokens.txt</template>
+	<stylesheets>
+		<stylesheet>tidyMenu.css</stylesheet>
+	</stylesheets>
+	<scripts>
+		<script>tidyMenu.js</script>
+	</scripts>
+</manifest>
