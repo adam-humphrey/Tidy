@@ -77,6 +77,7 @@ DNN Versions  : 6,7
 	<div class="pageWidth">
 		<div class="footerDiv clearfix">
 			<dnn:COPYRIGHT runat="server" id="dnnCOPYRIGHT" CssClass="copyrightCopy" />
+			<div class="attribDiv"><a href="http://tidy.codeplex.com/" title="Tidy - A Free Responsive DotNetNuke Skin">Tidy - A Free Responsive DotNetNuke Skin</a></div>
 		</div>
 	</div>
 </div>
