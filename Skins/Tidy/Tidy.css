@@ -105,6 +105,16 @@ img {
     font-size: 12px !important;
 }
 
+.attribDiv a {
+    margin:0 auto;
+    display:block;
+    height:35px;
+    width:39px;
+    text-indent:-2000px;
+    overflow:hidden;
+    background:url(graphics/attribution_logo.png) no-repeat;
+}
+
 /*========================================================+
 |  Login/Social Elements                                  |
 +========================================================*/
