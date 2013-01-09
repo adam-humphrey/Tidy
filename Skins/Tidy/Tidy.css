@@ -321,7 +321,7 @@ img {
 	top: 83px;
 	right: 10px;
 	position: absolute;
-	z-index: 900;
+	z-index: 1000;
 }
 
 #dnnMenu .topLevel {
@@ -346,6 +346,10 @@ img {
 	color: #777777;
 	padding-bottom: 25px;
 	text-transform: uppercase;
+}
+
+#dnnMenu .topLevel li a.disabled {
+	cursor:default;
 }
 
 #dnnMenu .topLevel a:hover {

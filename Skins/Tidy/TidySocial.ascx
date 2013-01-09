@@ -1,6 +1,6 @@
 <!--
 DNN Skin      : Tidy
-Version       : 1.0
+Version       : 1.0.3
 Released      : January 2013
 Style         : TidySocial
 DNN Versions  : 6,7
