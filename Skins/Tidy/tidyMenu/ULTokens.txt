@@ -9,7 +9,7 @@
 		[?ENABLED]
 			<a href="[=URL]">[=TEXT]</a>
 		[?ELSE]
-			<a>[=TEXT]</a>
+			<a class="disabled">[=TEXT]</a>
 		[/?]
 		[?NODE]
             <div class="subLevel">
@@ -25,7 +25,7 @@
 		[?ENABLED]
 			<a href="[=URL]"><span>[=TEXT]</span></a>
 		[?ELSE]
-			<a><div><span>[=TEXT]</span></div></a>
+			<a class="disabled"><div><span>[=TEXT]</span></div></a>
 		[/?]
 		[?NODE]
             <div class="subLevelRight">
