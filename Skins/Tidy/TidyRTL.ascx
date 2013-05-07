@@ -1,8 +1,8 @@
 <!--
-DNN Skin      : Tidy
+DNN Skin      : TidyRTL
 Version       : 01.01.00
 Released      : May 2013
-Style         : Tidy
+Style         : Tidy Right-To-Left
 DNN Versions  : 6,7
 -->
 
@@ -30,9 +30,10 @@ DNN Versions  : 6,7
 
 <dnn:Meta runat="server" Name="viewport" Content="width=device-width,initial-scale=1" />
 <dnn:DnnCssInclude runat="server" FilePath="css/Tidy.css" PathNameAlias="SkinPath" />
-<dnn:DnnJsInclude runat="server" FilePath="js/tidy.js" PathNameAlias="SkinPath" />
+<dnn:DnnCssInclude runat="server" FilePath="css/TidyRTL.css" PathNameAlias="SkinPath" />
+<dnn:DnnJsInclude runat="server" FilePath="js/tidyRTL.js" PathNameAlias="SkinPath" />
 
-<div id="tidySkin">
+<div id="tidySkin" dir="rtl">
 	<div class="pageWidth">
 		<div class="buttonDiv clearfix">
 			<div class="mobileButtons">

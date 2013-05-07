@@ -344,70 +344,70 @@
 
 @media only screen and (max-width: 767px) {
 	
-.dnnForm {
-	min-width:inherit;
-}
+    .dnnForm {
+	    min-width:inherit;
+    }
 
-.tabsPaneProfile .console {
-	border: none;
-	padding:0 0 20px 0;
-}
+    .tabsPaneProfile .console {
+	    border: none;
+	    padding:0 0 20px 0;
+    }
 
-.dnnMemberDirectory {
-	width: inherit;
-}
+    .dnnMemberDirectory {
+	    width: inherit;
+    }
 
-.tabsPaneProfile .console-none div {
-	margin-top: 5px;
-	border: 1px solid #CCCCCC;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-}
+    .tabsPaneProfile .console-none div {
+	    margin-top: 5px;
+	    border: 1px solid #CCCCCC;
+	    -webkit-border-radius: 3px;
+	    -moz-border-radius: 3px;
+	    border-radius: 3px;
+    }
 
-.tabsPaneProfile .console-none div.active {
-	margin-bottom: 0px;
-}
+    .tabsPaneProfile .console-none div.active {
+	    margin-bottom: 0px;
+    }
 
-.mdSearch {
-	/*display: none;*/
-}
+    .mdSearch {
+	    /*display: none;*/
+    }
 
-.dnnMemberDirectory .searchWrapper {
-	width: inherit;
-}
+    .dnnMemberDirectory .searchWrapper {
+	    width: inherit;
+    }
 
-.dnnMemberDirectory .mdSearchBar input[type="text"] {
-	width: 70%;
-}
+    .dnnMemberDirectory .mdSearchBar input[type="text"] {
+	    width: 70%;
+    }
 
-.dnnFormPopup {
-	width:auto !important;
-}
+    .dnnFormPopup {
+	    width:auto !important;
+    }
 
-.ModViewProfileC .pAddress, .ModViewProfileC .pContact {
-	width:90%;
-	margin:0 0 20px 0;
-}
+    .ModViewProfileC .pAddress, .ModViewProfileC .pContact {
+	    width:90%;
+	    margin:0 0 20px 0;
+    }
 
-.dgdGroupQuickInfo {
-	width:100%;
-	clear:left;
-}
+    .dgdGroupQuickInfo {
+	    width:100%;
+	    clear:left;
+    }
 
-.dgdAvatar { min-width:30%;}
+    .dgdAvatar { min-width:30%;}
 
-/*========================================================+
-|  Responsive Panes                                       |
-+========================================================*/
+    /*========================================================+
+    |  Responsive Panes                                       |
+    +========================================================*/
 
-.leftPaneProfile,
-.headerPaneProfile,
-.contentPaneProfile,
-.rightPaneProfile {
-	display: block;
-	float: none;
-	width: 100%;
-	margin: 0px;
-}
+    .leftPaneProfile,
+    .headerPaneProfile,
+    .contentPaneProfile,
+    .rightPaneProfile {
+	    display: block;
+	    float: none;
+	    width: 100%;
+	    margin: 0px;
+    }
 }

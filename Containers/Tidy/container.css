@@ -40,6 +40,10 @@
 	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
 }
 
+.panelBlue h1, .panelBlue h2, .panelBlue h3, .panelBlue h4, .panelBlue h5, .panelBlue h6, .panelBlue .Normal, .panelBlue .NormalDisabled, .panelBlue .NormalDeleted {
+    color: #FFFFFF;
+}
+
 .titleStyle {
     font-size: 20px;
     font-weight: bold;
