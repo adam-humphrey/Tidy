@@ -7,9 +7,9 @@
 [>NODE-TOP]
 	<li class="item[?FIRST] first[/?][?LAST] last[/?][?SELECTED] selected[/?][?NODE] haschild[/?]">
 		[?ENABLED]
-			<a href="[=URL]">[=TEXT]</a>
+			<a id="menuItem[=ID]" href="[=URL]">[=TEXT]</a>
 		[?ELSE]
-			<a class="disabled">[=TEXT]</a>
+			<a id="menuItem[=ID]" class="disabled">[=TEXT]</a>
 		[/?]
 		[?NODE]
             <div class="subLevel">
@@ -23,9 +23,9 @@
 [>NODE]
 	<li class="item[?FIRST] first[/?][?LAST] last[/?][?SELECTED] selected[/?][?NODE] haschild[/?]">
 		[?ENABLED]
-			<a href="[=URL]"><span>[=TEXT]</span></a>
+			<a id="menuItem[=ID]" href="[=URL]"><span>[=TEXT]</span></a>
 		[?ELSE]
-			<a class="disabled"><div><span>[=TEXT]</span></div></a>
+			<a id="menuItem[=ID]" class="disabled"><div><span>[=TEXT]</span></div></a>
 		[/?]
 		[?NODE]
             <div class="subLevelRight">

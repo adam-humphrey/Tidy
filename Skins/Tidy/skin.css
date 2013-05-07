@@ -210,26 +210,26 @@ h6 {
 
 @media only screen and (max-width: 767px) {
 	
-.dnnLabel {
-	margin:0px;
-	padding-right:0px;
-}
+    .dnnLabel {
+	    margin:0px;
+	    padding-right:0px;
+    }
 
-.dnnLoginService input[type="text"], .dnnLoginService input[type="password"] {
-    width:98%;
-	padding:5px;
-	font-size:18px;
-	min-width:0px;
-}
+    .dnnLoginService input[type="text"], .dnnLoginService input[type="password"] {
+        width:98%;
+	    padding:5px;
+	    font-size:18px;
+	    min-width:0px;
+    }
 
-.dnnFormItem input[type="text"], 
-.dnnFormItem input[type="password"], 
-.dnnFormItem input[type="email"], 
-.dnnFormItem input[type="tel"], 
-.dnnFormItem select, 
-.dnnFormItem textarea {
-    width: 95%;
-	font-size:18px;
-}
+    .dnnFormItem input[type="text"], 
+    .dnnFormItem input[type="password"], 
+    .dnnFormItem input[type="email"], 
+    .dnnFormItem input[type="tel"], 
+    .dnnFormItem select, 
+    .dnnFormItem textarea {
+        width: 95%;
+	    font-size:18px;
+    }
 
 }

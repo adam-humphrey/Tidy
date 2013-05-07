@@ -1,8 +1,8 @@
 <!--
 DNN Skin      : Tidy
-Version       : 1.0.3
-Released      : January 2013
-Style         : TidySocial
+Version       : 01.01.00
+Released      : May 2013
+Style         : Tidy Social
 DNN Versions  : 6,7
 -->
 
@@ -29,8 +29,9 @@ DNN Versions  : 6,7
 <%@ Register TagPrefix="dnn" Namespace="DotNetNuke.Web.Client.ClientResourceManagement" Assembly="DotNetNuke.Web.Client" %>
 
 <dnn:Meta runat="server" Name="viewport" Content="width=device-width,initial-scale=1" />
-<dnn:DnnJsInclude runat="server" FilePath="/js/tidy.js" PathNameAlias="SkinPath" />
-<dnn:DnnCssInclude runat="server" FilePath="/Tidy.css" PathNameAlias="SkinPath" />
+<dnn:DnnJsInclude runat="server" FilePath="js/tidy.js" PathNameAlias="SkinPath" />
+<dnn:DnnCssInclude runat="server" FilePath="css/TidySocial.css" PathNameAlias="SkinPath" />
+<dnn:DnnCssInclude runat="server" FilePath="css/Tidy.css" PathNameAlias="SkinPath" />
 
 <div id="tidySkin">
 	<div class="pageWidth">
@@ -77,7 +78,7 @@ DNN Versions  : 6,7
 	<div class="pageWidth">
 		<div class="footerDiv clearfix">
 			<dnn:COPYRIGHT runat="server" id="dnnCOPYRIGHT" CssClass="copyrightCopy" />
-			<div class="attribDiv"><a href="http://tidy.codeplex.com/" title="Tidy - A Free Responsive DotNetNuke Skin">Tidy - A Free Responsive DotNetNuke Skin</a></div>
+            <div class="attribDiv"><a href="http://tidy.codeplex.com/" title="Tidy - A Free Responsive DotNetNuke Skin">Tidy - A Free Responsive DotNetNuke Skin</a></div>
 		</div>
 	</div>
 </div>
