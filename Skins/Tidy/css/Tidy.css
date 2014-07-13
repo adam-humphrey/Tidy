@@ -1,5 +1,5 @@
 body {
-	background: url(../graphics/noise.png);
+	/*background: url(../graphics/noise.png);*/ /* Removed background texture as it is out of style these days */
 }
 
 /*========================================================+
@@ -319,8 +319,9 @@ img {
 
 #dnnMenu {
 	display: block;
-	bottom: 0px;
+	bottom: 50%;
 	right: 10px;
+    margin-bottom:-35px;
 	position: absolute;
 	z-index: 1000;
 }
@@ -345,7 +346,6 @@ img {
 #dnnMenu .topLevel li a {
 	display: block;
 	color: #777777;
-	padding-bottom: 28px;
 	text-transform: uppercase;
 }
 
@@ -359,7 +359,6 @@ img {
 }
 
 #dnnMenu .subLevel, #dnnMenu .subLevel .subLevelRight ul {
-	display: block;
 	display: none;
 	position: absolute;
 	width: auto;
@@ -409,19 +408,21 @@ img {
 	line-height: normal;
 }
 
-/*#dnnMenu .subLevel .subLevelRight ul {
-    top:auto;
-    left: 170px;
+#dnnMenu .subLevel .subLevelRight ul {
+    top:10px;
+    /* left: 170px; */ /* Fly out right */
+    left: -170px; /* Fly out left */
     display:block;
     width:170px;
-}*/
+    display:none;
+}
 
 #dnnMenu .subLevel .subLevelRight li a {
-	padding-left: 25px;
+	/*padding-left: 25px;*/
 }
 
 #dnnMenu .subLevel .subLevelRight .subLevelRight li a {
-	padding-left: 35px;
+	/*padding-left: 35px;*/
 }
 
 /*========================================================+
@@ -587,7 +588,7 @@ img {
 	    text-shadow: 1px 1px #FFFFFF;
     }
 
-    #dnnMenu .topLevel li.selected a {
+    #dnnMenu .topLevel li.selected:first-child a {
 	    color: #000000;
     }
 
@@ -595,7 +596,7 @@ img {
 	    text-decoration: none;
     }
 
-    #dnnMenu .subLevel {
+    #dnnMenu .subLevel,  #dnnMenu .subLevel .subLevelRight ul {
         background: #F3F3F3;
         display: block !important;
         line-height: 1.2em;
@@ -605,7 +606,7 @@ img {
         text-transform: uppercase;
         text-shadow: none;
         box-shadow:none;
-        left:inherit;
+        left:auto !important;
         top:inherit;
         width:inherit;
         position:relative;
@@ -613,12 +614,12 @@ img {
         padding:0px;
     }
 
-    #dnnMenu .subLevel ul {
+    #dnnMenu .subLevel ul, #dnnMenu .subLevel .subLevelRight ul {
 	    list-style: none;
 	    margin: 0;
 	    padding: 0;
         width:inherit;
-    
+        display:block !important;
     }
 
     #dnnMenu .subLevel li a {
@@ -627,5 +628,11 @@ img {
 
     #dnnMenu .subLevel .subLevelRight li a {
 	    padding-left: 50px;
+    }
+    #dnnMenu .subLevel .subLevelRight .subLevelRight li a {
+	    padding-left: 70px;
+    }
+    #dnnMenu .subLevel .subLevelRight .subLevelRight .subLevelRight li a {
+	    padding-left: 90px;
     }
 }

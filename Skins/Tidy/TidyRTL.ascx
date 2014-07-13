@@ -1,7 +1,7 @@
 <!--
 DNN Skin      : TidyRTL
-Version       : 01.01.00
-Released      : May 2013
+Version       : 01.02.00
+Released      : July 2014
 Style         : Tidy Right-To-Left
 DNN Versions  : 6,7
 -->
@@ -27,11 +27,13 @@ DNN Versions  : 6,7
 <%@ Register TagPrefix="dnn" TagName="CONTROLPANEL" Src="~/Admin/Skins/controlpanel.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="Meta" Src="~/Admin/Skins/Meta.ascx" %>
 <%@ Register TagPrefix="dnn" Namespace="DotNetNuke.Web.Client.ClientResourceManagement" Assembly="DotNetNuke.Web.Client" %>
+<%@ Register TagPrefix="dnn" TagName="JQUERY" Src="~/Admin/Skins/jQuery.ascx" %>
 
+<dnn:JQUERY runat="server" id="dnnjQuery" jQueryHoverIntent="true" />
 <dnn:Meta runat="server" Name="viewport" Content="width=device-width,initial-scale=1" />
 <dnn:DnnCssInclude runat="server" FilePath="css/Tidy.css" PathNameAlias="SkinPath" />
 <dnn:DnnCssInclude runat="server" FilePath="css/TidyRTL.css" PathNameAlias="SkinPath" />
-<dnn:DnnJsInclude runat="server" FilePath="js/tidyRTL.js" PathNameAlias="SkinPath" />
+<dnn:DnnJsInclude runat="server" FilePath="js/tidy.js" PathNameAlias="SkinPath" />
 
 <div id="tidySkin" dir="rtl">
 	<div class="pageWidth">
@@ -61,7 +63,7 @@ DNN Versions  : 6,7
 	<div class="contentDiv clearfix">
 		<div class="pageWidth">
 			<div class="breadcrumbDiv clearfix">
-				<dnn:BREADCRUMB runat="server" id="dnnBreadcrumb" RootLevel="-1" Separator="" CssClass="breadCrumb" />
+				<dnn:BREADCRUMB runat="server" id="dnnBreadcrumb" RootLevel="-1" Separator=" " CssClass="breadCrumb" />
 			</div>
 			<div id="ContentPane" runat="server"></div>
 		</div>
