@@ -52,12 +52,6 @@
 	float: right !important;
 }
 
-
-#dnnMenu .subLevel {
-	right: -15px;
-    left:auto !important;
-}
-
 #dnnMenu .subLevel li {
     width: 100% !important;
 }
